@@ -34,16 +34,16 @@ let user=data?.map((el,index)=>(
         </div>
         <div className='name_frist'>
         <h4>Group</h4>
-        <p className='dade'>{el.dade}</p>
+        <p className='dos'>{el.dade}</p>
         </div>
        <div className='name_frist'>
-        <h4>Does work?</h4>
-        <p className='dade'>{el.das}</p>
+        <h4 className="">Does work?</h4>
+        <p className='dos'>{el.das}</p>
        </div>
         {
        <PropsImg files={file } />
         }
-        <button className='DELET' onClick={()=>deleteData(index)} >Delete</button>
+        <button className='dalet' onClick={()=>deleteData(index)} >Delete</button>
     </div>
 ))
 

@@ -5,7 +5,10 @@ margin: 0 auto;
 padding: 0px 20px;
 box-sizing: border-box;
  }  
-   
+   /* body{
+    background-color: #555168;
+    color: #fff;
+   } */
    
    form{ 
     /* margin: 10px; */
@@ -19,15 +22,16 @@ box-sizing: border-box;
   }
   .data{
     font-family: sans-serif;
-    background-color: rgba(0, 0, 0, 0.05);;
+    background-color: rgba(27, 20, 20, 0.05);;
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    max-width: 700px;
+    max-width: 810px;
     margin: 0 auto;
     border-bottom: 2px solid blue;
     padding-left: 33px;
+    margin-top: 5px;
   }
   .input_tap{
     font-family: sans-serif;
@@ -35,7 +39,7 @@ box-sizing: border-box;
 border-radius: 4px;
     outline:none;
     border: 3px solid rgb(106, 107, 112);
-    max-width: 600px;
+    max-width: 800px;
     align-items: center;
     justify-content: center;
   }
@@ -57,19 +61,22 @@ padding-right: 10px;
     padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: 5px;
   }
   
-  .DELET{
+  .dalet{
     font-family: sans-serif;
     padding-right: 5px;
     background-color: red;
-    border-radius: 8px;
     padding: 10px;
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 0px  ;
+    border-radius: 8px  ;
     margin-right: 10px;
+  }
+  .dalet:hover{
+    background-color: blue;
   }
   .imgg{
     width: 25%;
@@ -77,11 +84,7 @@ padding-right: 10px;
     border-radius: 60%;
     object-fit: contain;
   }
-  .dade{
-    margin-left: 10px;
-  }
- .name{
- }
+
  .input_search{
     font-family: sans-serif;
     outline: none;
@@ -92,14 +95,12 @@ padding-right: 10px;
     margin-bottom: 30px;
     box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.1);
  }
- button{
-    border-radius: 10px;
- }
+
  .firist{
   max-width: 10px;
  }
  .name_frist{
-  max-width: 150px;
+  max-width: 165px;
   display: flex;
   flex-direction: column;
   justify-content: center;
