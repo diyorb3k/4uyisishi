@@ -24,10 +24,22 @@ function Tudulist() {
     }
 let user=data?.map((el,index)=>(
     <div className='data' key={index}>
-        <p className='name'>{el.name}</p>
+         <div className='name_frist'>
+         <h4 className='firist'>FirstName</h4>
+         <p className='name'>{el.name}</p>
+         </div>
+        <div className='name_frist'>
+        <h4>LastName</h4>
         <p>{el.sade}</p>
+        </div>
+        <div className='name_frist'>
+        <h4>Group</h4>
         <p className='dade'>{el.dade}</p>
+        </div>
+       <div className='name_frist'>
+        <h4>Does work?</h4>
         <p className='dade'>{el.das}</p>
+       </div>
         {
        <PropsImg files={file } />
         }
