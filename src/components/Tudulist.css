@@ -1,0 +1,97 @@
+ .container{
+    max-width: 1240px ;
+    width: 100%;
+margin: 0 auto;
+padding: 0px 20px;
+box-sizing: border-box;
+ }  
+   
+   
+   form{ 
+    /* margin: 10px; */
+    /* padding:  0 50px; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .data{
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.05);;
+    display: flex;
+    /* margin: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 2px solid blue;
+    padding-left: 33px;
+  }
+  .input_tap{
+    font-family: sans-serif;
+    padding: 10px;
+border-radius: 4px;
+    outline:none;
+    border: 3px solid rgb(106, 107, 112);
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p{
+    font-family: sans-serif;
+width: 250px;
+padding-right: 10px;
+  }
+  .qushish{
+    font-family: sans-serif;
+    background-color: rgb(7, 194, 7);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .DELET{
+    font-family: sans-serif;
+    padding-right: 5px;
+    background-color: red;
+    border-radius: 8px;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px  ;
+    margin-right: 10px;
+  }
+  .imgg{
+    width: 25%;
+    height: 25%;
+    border-radius: 60%;
+    object-fit: contain;
+  }
+  .dade{
+    margin-left: 10px;
+  }
+ .name{
+ }
+ .input_search{
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 26px;
+    margin-top: 50px;
+    padding: 20px ;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.1);
+ }
+ button{
+    border-radius: 10px;
+ }
