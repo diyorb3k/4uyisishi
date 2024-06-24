@@ -12,7 +12,7 @@ function Tudulist() {
     const sab=(e)=>{
         e.preventDefault();
         let user ={name,sade,dade,das};
-        setData([...data,user]) 
+        setData([...data,user].length)
         setName("")
         setTata("")
         setDatu("")
